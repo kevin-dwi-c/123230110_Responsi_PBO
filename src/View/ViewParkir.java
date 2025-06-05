@@ -271,7 +271,9 @@ public class ViewParkir extends javax.swing.JFrame {
     private void PlatNomorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PlatNomorActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_PlatNomorActionPerformed
-
+private void data_parkirMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_data_apotekMouseClicked
+        controller.updateSelected(data_parkir.getSelectedRow());
+    }
     private void MerkActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MerkActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_MerkActionPerformed
